@@ -1,0 +1,17 @@
+.projects {
+    width: 60%;
+    margin: 8vh auto;
+
+    .row {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+
+        .project {
+            width: 40%;
+            margin: 25px;
+        }
+    }
+
+}

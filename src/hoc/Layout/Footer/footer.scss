@@ -1,0 +1,23 @@
+@import '../../../assets/sass/colors.scss';
+
+.footer {
+    background-color: $papayawhip;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    padding: 10px;
+
+    .social {
+        width: 2%;
+        margin: 9px;
+
+        .logo {
+            width: 100%;
+        }
+
+        &:hover {
+            transform: rotate(360deg);
+            transition: all .5s;
+        }
+    }
+}
