@@ -4,8 +4,10 @@
     background-color: $papayawhip;
     display: flex;
     justify-content: center;
-    bottom: 0;
+    bottom: -14px;
     padding: 10px;
+    position: fixed;
+
 
     .social {
         width: 2%;

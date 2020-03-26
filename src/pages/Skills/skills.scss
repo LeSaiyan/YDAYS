@@ -42,3 +42,10 @@
         }
     }
 }
+
+@media (max-width: 685px) {
+    .skills {
+        transition: 0.3s all;
+        padding: 1vh;
+    }
+}

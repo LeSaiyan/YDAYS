@@ -11,14 +11,19 @@ class Contact extends Component {
         <div>
           <img src={Mail} />
           <p>
-            <a href="mailto:bastpinpro@gmail.com">bastpinpro@gmail.com</a>
+            <a href="mailto:bastpinpro@gmail.com" target="_blank">
+              bastpinpro@gmail.com
+            </a>
           </p>
         </div>
 
         <div>
           <img src={linkedin} />
           <p>
-            <a href="https://www.linkedin.com/in/bastien-pinard/">
+            <a
+              href="https://www.linkedin.com/in/bastien-pinard/"
+              target="_blank"
+            >
               Mon Linkedin
             </a>
           </p>
@@ -27,7 +32,10 @@ class Contact extends Component {
         <div>
           <img src={Git} />
           <p>
-            <a href="https://github.com/LeSaiyan?tab=repositories">
+            <a
+              href="https://github.com/LeSaiyan?tab=repositories"
+              target="_blank"
+            >
               Mon Github
             </a>
           </p>

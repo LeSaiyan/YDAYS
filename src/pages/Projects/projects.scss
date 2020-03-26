@@ -15,3 +15,14 @@
     }
 
 }
+
+@media (max-width: 849px) {
+    .projects {
+        .row {
+
+            .project {
+                width: 100%;
+            }
+        }
+    }
+}

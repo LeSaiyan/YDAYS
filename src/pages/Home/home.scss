@@ -1,8 +1,16 @@
 .home {
     margin: 30vh auto;
     width: 60%;
+    transition: 0.3s all;
 
     p {
         line-height: 26px;
+    }
+}
+
+@media (max-width: 685px) {
+    .home {
+        transition: 0.3s all;
+        margin: 14vh auto;
     }
 }
